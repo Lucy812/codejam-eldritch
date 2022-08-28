@@ -1,0 +1,121 @@
+.container {
+    background-image: url('assets/home.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.ancient-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-width: 40%;
+    padding: 20px;
+    
+}
+
+.difficulty-container {
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    min-width: 100px;
+    justify-content: center;
+    
+}
+
+.deck-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+    justify-content: center;
+    align-items: center;
+    min-width: 30%;
+    
+}
+.ancient-card {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 260px;
+    width: 200px;
+}
+.difficulty {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: gray;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.current-state{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 30%;
+}
+.stage-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.dots-container{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.dot {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    width: 30px;
+}
+.green{
+    background-color: green;
+}
+.brown {
+    background-color: brown;
+}
+.blue {
+    background-color: blue;
+}
+.shuffle-button{
+    visibility: hidden;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+}
+.deck{
+    display: flex;
+    
+    visibility: hidden;
+    background-image: url('assets/mythicCardBackground.png');
+    background-size: cover;
+    height: 209px;
+    width: 142px;
+    cursor: pointer;
+}
+.last-card {
+    background-size: cover;
+    height: 209px;
+    width: 142px;
+}
